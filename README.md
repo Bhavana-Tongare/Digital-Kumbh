@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# 🛕 Pilgrim Safe Haven -- Digital Kumbh Management Platform
 
-## Project info
+A smart web and mobile platform designed to ensure **safety,
+coordination, and smooth crowd movement** during large-scale religious
+gatherings like **Kumbh Mela**.\
+The system provides **real-time crowd monitoring, multilingual support,
+safe route planning, SOS alerts, and a powerful admin dashboard** for
+authorities.
 
-**URL**: https://lovable.dev/projects/497253c2-50e8-495e-90cf-aa4eb3270283
+------------------------------------------------------------------------
 
-## How can I edit this code?
+## 🚀 Key Features
 
-There are several ways of editing your application.
+### 🔹 **Real-Time Crowd Monitoring**
 
-**Use Lovable**
+AI-powered crowd density tracking to help authorities prevent congestion
+and ensure smooth movement.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/497253c2-50e8-495e-90cf-aa4eb3270283) and start prompting.
+### 🔹 **AI-Based Safe Route Planning**
 
-Changes made via Lovable will be committed automatically to this repo.
+Suggests safer and less crowded routes to pilgrims based on live
+footfall & traffic data.
 
-**Use your preferred IDE**
+### 🔹 **Lost & Found Management**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+A dedicated module to report and locate lost people using image matching
+and record tracking.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔹 **Emergency SOS Alerts**
 
-Follow these steps:
+One-tap SOS feature that immediately notifies nearest on-ground
+authorities.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔹 **Multilingual Support**
 
-# Step 2: Navigate to the project directory.
+Supports **English, Hindi, and Marathi** for easier accessibility to all
+pilgrims.
+
+### 🔹 **Admin & Analytics Dashboard**
+
+Provides real-time analytics, crowd heatmaps, emergency notifications,
+and resource management.
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+### **Frontend**
+
+-   React.js
+-   TypeScript
+-   Tailwind CSS
+-   shadcn-ui
+-   Vite
+
+### **Backend & Services**
+
+-   Supabase
+-   Firebase (optional for auth & notifications)
+-   Node.js APIs
+-   TensorFlow.js (for crowd detection)
+-   Dialogflow (for chatbot or voice assistant)
+
+### **AI/ML Tools**
+
+-   TensorFlow.js
+-   Geolocation & route optimization logic
+-   Live data processing
+
+------------------------------------------------------------------------
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+``` sh
+git clone <YOUR_REPOSITORY_URL>
+```
+
+### 2️⃣ Navigate to the project folder
+
+``` sh
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3️⃣ Install dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+``` sh
+npm install
+```
+
+### 4️⃣ Start the development server
+
+``` sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+------------------------------------------------------------------------
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚨 Core Modules
 
-**Use GitHub Codespaces**
+### **1. Pilgrim App**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+-   Safe route suggestions
+-   Live crowd map
+-   SOS button
+-   Lost-person reporting
+-   Multilingual UI
 
-## What technologies are used for this project?
+### **2. Authority Dashboard**
 
-This project is built with:
+-   Live density heatmaps
+-   Alerts & notifications
+-   Resource allocation panel
+-   Lost & found management
+-   Crowd trend analytics
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/497253c2-50e8-495e-90cf-aa4eb3270283) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
