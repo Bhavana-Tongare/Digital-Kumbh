@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Starting CCTV Service with YOLOv8..."
+echo ""
+echo "Make sure you have Python installed and dependencies installed:"
+echo "pip install -r requirements.txt"
+echo ""
+echo "Starting Flask server on http://localhost:5000"
+echo ""
+python3 cctv_service.py
